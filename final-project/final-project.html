@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="jquery-3.1.0.min.js"></script>
+        <script src="final-project.js"></script>
+        <link rel="stylesheet" type="text/css" href="final-project.css">
+    </head>
+    <style>
+        .myimgdivtoggle{
+            display:none; 
+        }
+
+    </style>
+    <body>
+
+
+        <p>
+            Press the button to receive a special birthday wish!
+        </p>
+    </body>
+    <p id='demo' style = 'display: none'>HAPPY BIRTHDAY!!!!!!!!!!!</p>     
+    <button type="button" class="togglebtn" onclick="document.getElementById('demo').style.display='block'">Click here!</button>
+    <div class = "myimgdivtoggle">
+        <img id="confetti_img" src="confetti.png" width="400" height="400"/>
+    </div>
